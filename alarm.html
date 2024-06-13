@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Alarm Management</h1>
+        <div id="current-time" class="time"></div>
+        <div id="current-date" class="date"></div>
+        
+        <div id="alarm-management">
+            <h2>Your Alarms</h2>
+            <ul id="alarm-list"></ul>
+        </div>
+
+        <div id="alarm-modal" class="modal hide">
+            <div class="modal-content">
+                <h2>Alarm!!</h2>
+                <button id="snooze-btn" class="button">Snooze</button>
+                <button id="dismiss-btn" class="button">Dismiss</button>
+            </div>
+        </div>
+        
+        <button onclick="goToSetAlarmPage()" class="button">Set Alarm</button>
+    </div>
+
+    <script>
+        function goToSetAlarmPage() {
+            window.location.href = "set_alarm.html";
+        }
+    </script>
+    <script src="alarm.js"></script>
+</body>
+</html>

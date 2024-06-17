@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const currentTimeElement = document.getElementById('current-time');
     const currentDateElement = document.getElementById('current-date');
-    const alarmAudio = new Audio();
+    const alarmAudio = new Audio(tone1.mp3,tone2.mp3.tone3.mp3);
     const alarmListElement = document.getElementById('alarm-list');
     const alarmModal = document.getElementById('alarm-modal');
     const snoozeButton = document.getElementById('snooze-btn');

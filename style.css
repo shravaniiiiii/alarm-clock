@@ -21,9 +21,12 @@ body {
     margin-bottom: 20px;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
+}
+h2{
+    color: #007bff;
 }
 
 .button {
